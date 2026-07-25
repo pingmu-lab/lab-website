@@ -1,6 +1,21 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_007",
+      "src": "Gallery/date_pending_existing/amanda-birthday-july-2026.jpg",
+      "date": "July 2026",
+      "sortDate": "2026-07-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Amanda’s Birthday",
+      "caption": "Mu Lab celebrating Amanda’s birthday!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1350,
+      "height": 1800
+    },
+    {
       "id": "local_event_2026_006",
       "src": "Gallery/date_pending_existing/pending_06_图片_20260627151557_69_27.jpg",
       "date": "2026",

@@ -4,7 +4,7 @@ window.MULAB_GALLERY = window.MULAB_GALLERY || {};
 window.MULAB_GALLERY.albums = [
  {
   "id": "yale-symposium-2026",
-  "pos": 2,
+  "pos": 3,
   "title": "Yale Prostate Cancer Symposium",
   "date": "June 3, 2026",
   "year": "2026",
