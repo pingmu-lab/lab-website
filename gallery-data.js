@@ -12,8 +12,8 @@ window.MULAB_GALLERY = {
       "source": "Mu Lab",
       "descriptionSource": "Local",
       "sourceUrl": "",
-      "width": 1350,
-      "height": 1800
+      "width": 1800,
+      "height": 1350
     },
     {
       "id": "local_event_2026_006",
