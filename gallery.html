@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Mu Lab · Yale School of Medicine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="gallery-v4.css">
+<script src="gallery-data.js" defer></script>
+<script src="gallery-albums.js" defer></script>
+<script src="gallery-v4.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="progress" id="prog"></div>
+
+<header id="hdr">
+  <nav>
+    <a class="wordmark" href="index.html"><b>Mu Lab</b><span class="reg">Yale School of Medicine</span></a>
+    <div class="navlinks">
+      <a href="research.html"><span class="n">01</span>Research</a>
+      <a href="publications.html"><span class="n">02</span>Publications</a>
+      <span class="navitem"><a href="people.html"><span class="n">03</span>People</a><span class="navdrop"><a href="people.html">All members</a><a href="ping-mu.html">Principal Investigator</a></span></span>
+      <a href="gallery.html" class="active"><span class="n">04</span>Gallery</a>
+      <a href="join.html"><span class="n">05</span>Join</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero wrap">
+  <div class="mlabel">Mu Lab / Gallery</div>
+  <h1 class="serif">Life in the <em>lab</em>.</h1>
+</section>
+
+<section class="wrap gallery-block">
+  <p class="v4-intro">The people, the science, the moments in between — at the bench, the microscope, and beyond.</p>
+  <div class="v4-archive" aria-label="Mu Lab photo archive">
+    <aside class="y4-rail-shell" aria-label="Timeline">
+      <div class="y4-rail" id="v4Rail"></div>
+    </aside>
+    <div id="v4Gallery"></div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="foot">
+      <div class="mono">© 2026 <b>Mu Lab</b> · Yale School of Medicine<br>New Haven, Connecticut</div>
+    </div>
+  </footer>
+
+</body>
+</html>

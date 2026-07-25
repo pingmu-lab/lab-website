@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mu Lab — The biology of cellular identity &amp; therapy resistance · Yale</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Show the opening only on first visit of a tab-session or on refresh; skip it for internal navigation (e.g. clicking the Mu Lab wordmark). Runs before paint to avoid a flash. */
+(function(){try{
+  var nav=performance.getEntriesByType&&performance.getEntriesByType('navigation')[0];
+  var isReload=nav?nav.type==='reload':(performance.navigation&&performance.navigation.type===1);
+  var firstThisSession=!sessionStorage.getItem('muOpened');
+  sessionStorage.setItem('muOpened','1');
+  if(!(firstThisSession||isReload))document.documentElement.classList.add('no-intro');
+}catch(e){}})();
+</script>
+<script src="news-data.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body class="home">
+
+<div id="loader">
+  <img class="loader-bust" src="art-plasticity.webp" alt="">
+  <div class="loader-copy">
+    <div class="lname serif">Mu Lab</div>
+    <div class="lline"></div>
+    <div class="lsub">Yale School of Medicine</div>
+  </div>
+</div>
+
+<div class="progress" id="prog"></div>
+
+<header id="hdr">
+  <nav>
+    <a class="wordmark" href="index.html"><b>Mu Lab</b><span class="reg">Yale School of Medicine</span></a>
+    <div class="navlinks">
+      <a href="research.html"><span class="n">01</span>Research</a>
+      <a href="publications.html"><span class="n">02</span>Publications</a>
+      <span class="navitem"><a href="people.html"><span class="n">03</span>People</a><span class="navdrop"><a href="people.html">All members</a><a href="ping-mu.html">Principal Investigator</a></span></span>
+      <a href="gallery.html"><span class="n">04</span>Gallery</a>
+      <a href="join.html"><span class="n">05</span>Join</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero-cine page" id="top">
+  <video class="bg" id="heroVid" muted loop playsinline preload="auto" poster="mu-lab-hero-poster2.jpg">
+    <source src="mu-lab-hero-optics2.mp4" type="video/mp4">
+  </video>
+  <div class="veil"></div>
+  <div class="veil2"></div>
+  <div class="grain"></div>
+  <div class="topmeta">
+    <span>Division of Urologic Sciences, Department of Urology</span>
+    <span>New Haven, CT</span>
+  </div>
+  <div class="inner">
+    <h1 class="serif">
+      <span class="hl-line"><span style="animation-delay:2.55s">Cancer cells learn</span></span>
+      <span class="hl-line"><span style="animation-delay:2.67s">to <em>change who</em></span></span>
+      <span class="hl-line"><span style="animation-delay:2.79s"><em>they are.</em></span></span>
+    </h1>
+    <div class="newswire fadeup" id="newswire" style="animation-delay:3.05s">
+      <span class="nw-tag"><i class="nw-dot"></i>Lab News</span>
+      <a class="nw-slot" id="nwSlot" href="#news" aria-live="polite">
+        <span class="nw-meta" id="nwMeta"></span>
+        <span class="nw-head" id="nwHead"></span>
+        <span class="nw-go">&#8594;</span>
+      </a>
+    </div>
+  </div>
+  <div class="scrollcue"><span>Scroll</span><span class="ln"></span></div>
+</section>
+
+<section class="mission page full wrap mission-cine">
+  <div class="mlabel">Our mission</div>
+  <h2 class="mission-h serif">Outsmarting how cancer <em>changes its identity.</em></h2>
+  <p class="mission-lead serif">Our lab is dedicated to uncovering the molecular mechanisms that drive resistance to targeted and immune therapies in prostate and other cancers. We are also pioneering innovative therapeutic strategies to overcome these resistances, utilizing a range of state-of-the-art techniques, including 3D-cultured organoids, single-cell sequencing, and spatial transcriptomics. Our recent work has been published in top-tier journals such as <em class="jn">Cancer Cell (2020, 2023)</em>, <em class="jn">Cancer Discovery (2024)</em>, <em class="jn">Nature Cancer (2022)</em>, and <em class="jn">Oncogene (2024)</em>.</p>
+</section>
+
+<section class="page full filmsplit wrap" id="film">
+  <div class="fs-grid">
+    <div class="fs-text">
+      <div class="mlabel">The film</div>
+      <h2 class="serif">A look <em>inside</em> the lab.</h2>
+      <p>Three minutes with the PI, Dr. Ping Mu — lineage plasticity, 3D organoids, AI-driven drug discovery, and the fight against therapy resistance, told by the lab itself.</p>
+      <button class="watchbtn fs-cta" aria-label="Watch the full film with sound"><span class="circ">&#9658;</span><span>Watch with sound</span><span class="fs-dur">3:03</span></button>
+    </div>
+    <figure class="ff-frame fs-frame" id="filmFrame" role="button" tabindex="0" aria-label="Play the film with sound">
+      <video class="bg" id="filmPreview" muted loop playsinline preload="auto" poster="mu-lab-preview-soft-poster.jpg">
+        <source src="mu-lab-preview-soft.mp4" type="video/mp4">
+      </video>
+      <video id="filmFull" playsinline controls preload="none" poster="mu-lab-poster.jpg">
+        <source src="mu-lab-720.mp4" type="video/mp4">
+      </video>
+    </figure>
+  </div>
+  <div class="fs-backdrop" id="filmBackdrop"></div>
+  <button class="fs-close" id="filmClose" aria-label="Close player">&#10005;</button>
+</section>
+
+<section class="directions" id="research">
+  <div class="wrap dir-body">
+    <div class="mlabel">What we study</div>
+    <h2 class="serif">Research directions</h2>
+    <a class="idx dir-all" href="research.html">Explore more <span class="ar">&#8594;</span></a>
+    <ol class="dirs">
+      <li><span class="ix">01</span><div><h3 class="serif">Lineage Plasticity and Resistance</h3><p>Unravel how lineage plasticity drives resistance — and build combination therapies to overcome it.</p></div></li>
+      <li><span class="ix">02</span><div><h3 class="serif">Novel Tumor Suppressors and Oncogenes</h3><p>Identify new druggable tumor suppressors and oncogenes that drive therapy resistance.</p></div></li>
+      <li><span class="ix">03</span><div><h3 class="serif">Mutagenesis and Tumor Evolution</h3><p>Investigate the mechanisms behind mutagenesis, tumor heterogeneity, and evolution.</p></div></li>
+      <li><span class="ix">04</span><div><h3 class="serif">Epigenetic Rewiring</h3><p>Examine how epigenetic rewiring fuels resistance — and how to reverse it.</p></div></li>
+      <li><span class="ix">05</span><div><h3 class="serif">Tumor Microenvironment and Immune Modulation</h3><p>Explore how cancer cells reshape the microenvironment and immune system to resist therapy.</p></div></li>
+      <li><span class="ix">06</span><div><h3 class="serif">Drug Development</h3><p>Develop small-molecule inhibitors and protein degraders through our high-throughput platform.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="news" id="news">
+  <div class="wrap news-body">
+    <div class="news-head">
+      <div>
+        <div class="mlabel">What's new</div>
+        <h2 class="serif">Lab news</h2>
+      </div>
+    </div>
+    <div class="news-list" id="newsGrid"></div>
+    <a class="news-more" href="news.html">All news <span>&#8594;</span></a>
+  </div>
+</section>
+
+<section class="funders" id="funders">
+  <div class="wrap fund-body">
+    <div class="mlabel">Support</div>
+    <h2 class="serif">Funders</h2>
+    <div class="fund-grid">
+      <a class="fund-logo" href="https://www.nih.gov/" target="_blank" rel="noopener"><img src="logos/NIH.png" alt="National Institutes of Health"></a>
+      <a class="fund-logo" href="https://www.cancer.gov/" target="_blank" rel="noopener"><img src="logos/NIH_2.png" alt="National Cancer Institute"></a>
+      <a class="fund-logo" href="https://cdmrp.health.mil/" target="_blank" rel="noopener"><img src="logos/CDMRP.png" alt="Congressionally Directed Medical Research Programs"></a>
+      <a class="fund-logo" href="https://www.pcf.org/" target="_blank" rel="noopener"><img src="logos/PCF.png" alt="Prostate Cancer Foundation"></a>
+      <a class="fund-logo" href="https://www.cprit.texas.gov/" target="_blank" rel="noopener"><img src="logos/logo--cprit.svg" alt="Cancer Prevention and Research Institute of Texas"></a>
+      <a class="fund-logo" href="https://www.yalecancercenter.org/" target="_blank" rel="noopener"><img src="logos/YALE.png" alt="Yale Cancer Center"></a>
+    </div>
+  </div>
+  <footer class="wrap">
+    <div class="foot">
+      <div class="mono">© 2026 <b>Mu Lab</b> · Yale School of Medicine<br>New Haven, Connecticut</div>
+    </div>
+  </footer>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News — Mu Lab · Yale School of Medicine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="news-data.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="progress" id="prog"></div>
+
+<header id="hdr">
+  <nav>
+    <a class="wordmark" href="index.html"><b>Mu Lab</b><span class="reg">Yale School of Medicine</span></a>
+    <div class="navlinks">
+      <a href="research.html"><span class="n">01</span>Research</a>
+      <a href="publications.html"><span class="n">02</span>Publications</a>
+      <span class="navitem"><a href="people.html"><span class="n">03</span>People</a><span class="navdrop"><a href="people.html">All members</a><a href="ping-mu.html">Principal Investigator</a></span></span>
+      <a href="gallery.html"><span class="n">04</span>Gallery</a>
+      <a href="join.html"><span class="n">05</span>Join</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero wrap">
+  <div class="mlabel">Mu Lab / News</div>
+  <h1 class="serif">Lab <em>news</em>.</h1>
+</section>
+
+<section class="wrap news-archive">
+  <p class="pintro">Papers, awards, grants, talks, and the people behind them — the latest first.</p>
+  <div id="newsArchive"></div>
+</section>
+
+<footer class="wrap">
+  <div class="foot">
+    <div class="mono">© 2026 <b>Mu Lab</b> · Yale School of Medicine<br>New Haven, Connecticut</div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var NEWS=window.MULAB_NEWS||[];
+  var wrap=document.getElementById('newsArchive');
+  if(!wrap||!NEWS.length)return;
+  var yearOf=function(n){var m=String(n.date||'').match(/20\d\d/);return m?m[0]:'Ongoing';};
+  var groups={},order=[];
+  NEWS.forEach(function(n){var y=yearOf(n);if(!(y in groups)){groups[y]=[];order.push(y);}groups[y].push(n);});
+  order.sort(function(a,b){if(a==='Ongoing')return -1;if(b==='Ongoing')return 1;return b.localeCompare(a);});
+  var frag=document.createDocumentFragment();
+  order.forEach(function(y){
+    var g=document.createElement('div');g.className='na-group';
+    var h=document.createElement('div');h.className='na-year serif';
+    h.textContent=y;
+    var c=document.createElement('span');c.className='cnt';c.textContent=groups[y].length+(groups[y].length>1?' items':' item');
+    h.appendChild(c);g.appendChild(h);
+    var list=document.createElement('div');list.className='news-list';
+    groups[y].forEach(function(n){
+      var valid=n.href&&n.href!=='#';
+      var row=document.createElement(valid?'a':'div');row.className='news-row';
+      if(valid){row.href=n.href;if(/^https?:/.test(n.href)||/\.(jpe?g|png|webp|gif|avif)$/i.test(n.href)){row.target='_blank';row.rel='noopener';}}
+      row.innerHTML='<div class="nr-meta"><span class="nr-date"></span><span class="nr-cat"></span></div><div class="nr-main"><h3 class="nr-title"></h3></div>'+(valid?'<span class="nr-go">&#8594;</span>':'');
+      row.querySelector('.nr-date').textContent=n.date||'';
+      row.querySelector('.nr-cat').textContent=n.tag||'News';
+      row.querySelector('.nr-title').textContent=n.head||'';
+      if(n.desc){var p=document.createElement('p');p.className='nr-desc';p.textContent=n.desc;row.querySelector('.nr-main').appendChild(p);}
+      list.appendChild(row);
+    });
+    g.appendChild(list);frag.appendChild(g);
+  });
+  wrap.appendChild(frag);
+});
+</script>
+
+</body>
+</html>
