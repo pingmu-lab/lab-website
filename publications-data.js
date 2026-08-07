@@ -4,6 +4,15 @@
 window.MULAB_PUBS = [
  {
   "year": "2026",
+  "title": "Face/off: phase-specific modeling of lineage plasticity using near-patient models in genitourinary cancers",
+  "authors": "Fu Z, Li L, Perry CJ, Ghali F, Tan WS, Kim IY, Mu P",
+  "journal": "Gene",
+  "info": "2026, 1009: 150293",
+  "type": "Review",
+  "url": "https://doi.org/10.1016/j.gene.2026.150293"
+ },
+ {
+  "year": "2026",
   "title": "HOX code–based stratification reveals RUNX1T1–HDAC reprogramming as a targetable driver of lineage plasticity across cancers",
   "authors": "Jiang Y, Cheng S, Zhang CY, Jin X, Li L, Shin HE, Alrefai A, Luo A, Xu Y, Kim IY, Mu P",
   "journal": "Cancer Letters",

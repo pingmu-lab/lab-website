@@ -1,6 +1,36 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_009",
+      "src": "Gallery/date_pending_existing/melanie-nci-f31-award-august-2026.jpg",
+      "date": "August 2026",
+      "sortDate": "2026-08-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Melanie’s NCI F31 Award",
+      "caption": "Melanie celebrating her NCI F31 Award!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1288,
+      "height": 1800
+    },
+    {
+      "id": "local_event_2026_008",
+      "src": "Gallery/date_pending_existing/christo-birthday-july-2026.jpg",
+      "date": "July 2026",
+      "sortDate": "2026-07-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Christo’s Birthday",
+      "caption": "Mu Lab celebrating Christo’s birthday!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1350,
+      "height": 1800
+    },
+    {
       "id": "local_event_2026_007",
       "src": "Gallery/date_pending_existing/amanda-birthday-july-2026.jpg",
       "date": "July 2026",
