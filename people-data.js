@@ -1,14 +1,4 @@
 window.MULAB_PEOPLE_DETAILS = {
-  'Jihoon Kang': {
-    bio: [
-      `Jihoon Kang is a summer student in the Mu Lab.`
-    ]
-  },
-  'Isaac Kim': {
-    bio: [
-      `Isaac Kim is a summer student in the Mu Lab.`
-    ]
-  },
   'Catherine Yijia Zhang': {
     bio: [
       `Catherine Yijia Zhang is a former summer student in the Mu Lab and is currently a graduate student at Stanford University.`

@@ -358,17 +358,24 @@ if(cv){
     if(src){renderFromSource(src);}
     else{renderBio(bio);renderTraining(info.training);}
     linksEl.innerHTML='';
-    if(em){const a=document.createElement('a');a.href='mailto:'+em;a.textContent='mail ↗';linksEl.appendChild(a);}
-    if(lk){const a=document.createElement('a');a.href=lk;a.target='_blank';a.rel='noopener';a.textContent='Yale profile ↗';linksEl.appendChild(a);}
-    if(em||lk){
-      [['scholar','Google Scholar'],['orcid','ORCID'],['linkedin','LinkedIn']].forEach(function(s){
-        const url=card.dataset[s[0]]||'#';
-        const a=document.createElement('a');a.href=url;a.textContent=s[1]+' ↗';
+    [
+      ['mail',em?'mailto:'+em:''],
+      ['Yale profile',lk||''],
+      ['Google Scholar',card.dataset.scholar||''],
+      ['ORCID',card.dataset.orcid||''],
+      ['LinkedIn',card.dataset.linkedin||'']
+    ].forEach(function(item){
+      const label=item[0],url=item[1];
+      const a=document.createElement(url?'a':'span');
+      a.textContent=label+' ↗';
+      if(url){
+        a.href=url;
         if(/^https?:/.test(url)){a.target='_blank';a.rel='noopener';}
-        else{a.classList.add('soon');a.title='Link coming soon';a.addEventListener('click',function(e){e.preventDefault();});}
-        linksEl.appendChild(a);
-      });
-    }
+      }else{
+        a.classList.add('soon');a.title='Link coming soon';a.setAttribute('aria-disabled','true');
+      }
+      linksEl.appendChild(a);
+    });
     const cardEl=modal.querySelector('.ppl-card');if(cardEl)cardEl.scrollTop=0;
     modal.classList.add('open');document.body.style.overflow='hidden';
   }

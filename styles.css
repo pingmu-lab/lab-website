@@ -672,7 +672,7 @@ a.pi-feature{text-decoration:none;color:inherit}
 .ppl-body::-webkit-scrollbar-thumb{background:rgba(111,130,242,.3);border-radius:4px}
 .ppl-body::-webkit-scrollbar-track{background:transparent}
 .ppl-links{display:flex;flex-wrap:wrap;gap:20px;font-family:'Space Mono';font-size:11.5px;letter-spacing:.03em;margin-top:30px;padding-top:26px;border-top:1px solid var(--line)}
-.ppl-links a{color:var(--ink2);border-bottom:1px solid var(--line);padding-bottom:3px;transition:.25s}
+.ppl-links a,.ppl-links .soon{color:var(--ink2);border-bottom:1px solid var(--line);padding-bottom:3px;transition:.25s}
 .ppl-links a:hover{color:var(--accent);border-color:var(--accent)}
 .ppl-body>.ppl-bio:first-child{margin-top:2px}
 .ppl-bio{color:var(--ink2);font-size:15px;font-weight:300;line-height:1.72}
@@ -837,8 +837,7 @@ footer.wrap{margin-top:clamp(52px,7vh,96px);padding-top:clamp(18px,2.6vh,30px);p
 .rp-label .cnt-badge{font-family:'Space Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .rp-label .gs-link{margin-left:auto;font-family:'Space Mono';font-size:12px;letter-spacing:.03em;color:var(--accent-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:3px;transition:color .25s,border-color .25s;white-space:nowrap}
 .rp-label .gs-link:hover{color:var(--accent);border-color:var(--accent)}
-.ppl-links a.soon{opacity:.4;cursor:default}
-.ppl-links a.soon:hover{opacity:.6}
+.ppl-links .soon{opacity:.4;cursor:default}
 
 /* ============================================================
    Mobile experience (≤900px). All rules scoped to narrow widths —
