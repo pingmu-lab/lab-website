@@ -7,6 +7,7 @@
      desc  — one-line description (optional)
      href  — link target (optional; omit or use "#" for a non-clickable item) */
 window.MULAB_NEWS = [
+  {date:'2026', tag:'Award', head:'Melanie received the NCI F31 Fellowship! Congratulations!'},
   {date:'2026', tag:'Publication', head:'New paper published in Cancer Letters!', href:'https://www.sciencedirect.com/science/article/pii/S0304383526002284'},
   {date:'2026', tag:'Award', head:'Yaru received NCI K99/R00 award on the first submission!'},
   {date:'2026', tag:'Event', head:'The Yale Prostate Cancer Symposium was successfully held!', href:'gallery.html'},

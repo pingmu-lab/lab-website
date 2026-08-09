@@ -691,6 +691,51 @@ window.MULAB_GALLERY = {
       "height": 1675
     },
     {
+      "id": "local_event_2021_001",
+      "src": "Gallery/curated_lab_events_by_year/2021/001_dated_christmas-2021_mu-lab-christmas-gift-exchange-01_utsw.jpeg",
+      "date": "Christmas 2021",
+      "sortDate": "2021-12-01",
+      "year": "2021",
+      "precision": "event",
+      "title": "Mu Lab Christmas Gift Exchange",
+      "caption": "Mu Lab Christmas gift exchange, 2021.",
+      "source": "UTSW",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1290,
+      "height": 938
+    },
+    {
+      "id": "local_event_2021_002",
+      "src": "Gallery/curated_lab_events_by_year/2021/002_dated_christmas-2021_mu-lab-christmas-gift-exchange-02_utsw.jpeg",
+      "date": "Christmas 2021",
+      "sortDate": "2021-12-01",
+      "year": "2021",
+      "precision": "event",
+      "title": "Mu Lab Christmas Gift Exchange",
+      "caption": "Mu Lab Christmas gift exchange, 2021.",
+      "source": "UTSW",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1290,
+      "height": 959
+    },
+    {
+      "id": "local_event_2021_003",
+      "src": "Gallery/curated_lab_events_by_year/2021/003_dated_christmas-2021_mu-lab-christmas-gift-exchange-03_utsw.jpeg",
+      "date": "Christmas 2021",
+      "sortDate": "2021-12-01",
+      "year": "2021",
+      "precision": "event",
+      "title": "Mu Lab Christmas Gift Exchange",
+      "caption": "Mu Lab Christmas gift exchange, 2021.",
+      "source": "UTSW",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1290,
+      "height": 959
+    },
+    {
       "id": "curated_event_017",
       "src": "Gallery/curated_lab_events_by_year/2020/001_manual-order_2020_mu-ping-lab-group-photo_utsw.jpeg",
       "date": "2020",
@@ -933,7 +978,7 @@ window.MULAB_GALLERY = {
   ],
   "datePending": [],
   "metadata": {
-    "recordCount": 61,
+    "recordCount": 65,
     "order": "custom order from Gallery/editor_output/gallery-edits.json",
     "sourceManifest": "Gallery/curated_lab_events_by_year/curated_lab_events_manifest.json",
     "sourceOrder": "curated_lab_events_manual_order.csv"

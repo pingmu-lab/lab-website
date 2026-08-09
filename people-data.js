@@ -1,4 +1,39 @@
 window.MULAB_PEOPLE_DETAILS = {
+  'Jihoon Kang': {
+    bio: [
+      `Jihoon Kang is a summer student in the Mu Lab.`
+    ]
+  },
+  'Isaac Kim': {
+    bio: [
+      `Isaac Kim is a summer student in the Mu Lab.`
+    ]
+  },
+  'Catherine Yijia Zhang': {
+    bio: [
+      `Catherine Yijia Zhang is a former summer student in the Mu Lab and is currently a graduate student at Stanford University.`
+    ]
+  },
+  'Sylvia Xiao Jin': {
+    bio: [
+      `Sylvia Xiao Jin is a former summer student in the Mu Lab and is currently a graduate student at Baylor School of Medicine.`
+    ]
+  },
+  'Jerry Hao Wu': {
+    bio: [
+      `Jerry Hao Wu is a former summer student in the Mu Lab and is currently a graduate student at USC.`
+    ]
+  },
+  'Rosa Kwon': {
+    bio: [
+      `Rosa Kwon is a former summer student in the Mu Lab.`
+    ]
+  },
+  'Mingke Wu': {
+    bio: [
+      `Mingke Wu is a former summer student in the Mu Lab.`
+    ]
+  },
   'Siyuan Cheng': {
     bio: [
       `Dr. Siyuan Cheng is a postdoctoral associate in the Department of Urology at Yale University whose research centers on leveraging artificial intelligence and multi-omics integration to decode the cellular heterogeneity and progression dynamics of prostate cancer. His work combines large-scale single-cell, spatial, and epigenomic datasets with advanced computational modeling to uncover hidden regulatory networks driving lineage plasticity and therapy resistance. Dr. Cheng has developed several publicly available bioinformatics platforms, including HuPSA, ProAtlas, and PCTA, that have become widely used resources in the cancer research community. His research aims to establish data-driven frameworks to predict tumor evolution and identify therapeutically targetable states underlying prostate cancer progression.`
