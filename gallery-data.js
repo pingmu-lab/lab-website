@@ -1,6 +1,21 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_010",
+      "src": "Gallery/date_pending_existing/titi-and-amanda-august-2026.jpg",
+      "date": "August 2026",
+      "sortDate": "2026-08-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Titi & Amanda",
+      "caption": "Titi with her great mentor Amanda!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1800,
+      "height": 1200
+    },
+    {
       "id": "local_event_2026_009",
       "src": "Gallery/date_pending_existing/melanie-nci-f31-award-august-2026.jpg",
       "date": "August 2026",
