@@ -1,6 +1,36 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_014",
+      "src": "Gallery/date_pending_existing/isaac-last-day-august-2026.jpg",
+      "date": "August 2026",
+      "sortDate": "2026-08-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Isaac’s Last Day",
+      "caption": "Isaac with his great mentor Melanie!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "id": "local_event_2026_013",
+      "src": "Gallery/date_pending_existing/isaac-summer-essentials-august-2026.jpg",
+      "date": "August 2026",
+      "sortDate": "2026-08-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Isaac’s Summer Essentials",
+      "caption": "Isaac with his summer essentials: pipette, plates, and plenty of puzzles!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1800,
+      "height": 1350
+    },
+    {
       "id": "local_event_2026_012",
       "src": "Gallery/date_pending_existing/ping-birthday-august-2026.jpg",
       "date": "August 2026",
@@ -1263,7 +1293,7 @@ window.MULAB_GALLERY = {
   ],
   "datePending": [],
   "metadata": {
-    "recordCount": 84,
+    "recordCount": 86,
     "order": "custom order from Gallery/editor_output/gallery-edits.json",
     "sourceManifest": "Gallery/curated_lab_events_by_year/curated_lab_events_manifest.json",
     "sourceOrder": "curated_lab_events_manual_order.csv"
