@@ -4,6 +4,24 @@
 window.MULAB_PUBS = [
  {
   "year": "2026",
+  "title": "Mirror worlds: The shared regulatory architecture of cell fate in development and cancer",
+  "authors": "Fraidenburg M, Li L, Kwon R, Ghali F, Warrick J, Leapman MS, Kim IY, Mu P",
+  "journal": "Cancer Letters",
+  "info": "2026, 659: 218799",
+  "type": "Review",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42641865"
+ },
+ {
+  "year": "2026",
+  "title": "The Great Escape: the systems biology of endocrine resistance and lineage plasticity",
+  "authors": "Dragnev CPC, Fu Z, Huang S, Perry CJ, Kahn A, Dinan MA, Tan WS, Leapman M, Braun DA, Warrick J, Beltran H, Mu P",
+  "journal": "Endocrine Related Cancer",
+  "info": "2026, 33: e260130",
+  "type": "Review",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42573111"
+ },
+ {
+  "year": "2026",
   "title": "Face/off: phase-specific modeling of lineage plasticity using near-patient models in genitourinary cancers",
   "authors": "Fu Z, Li L, Perry CJ, Ghali F, Tan WS, Kim IY, Mu P",
   "journal": "Gene",
