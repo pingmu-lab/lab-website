@@ -1,6 +1,21 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_015",
+      "src": "Gallery/date_pending_existing/zixu-birthday.jpg",
+      "date": "September 2026",
+      "sortDate": "2026-09-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Zixu’s Birthday",
+      "caption": "Mu Lab celebrating Zixu’s birthday!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 1350,
+      "height": 1800
+    },
+    {
       "id": "local_event_2026_014",
       "src": "Gallery/date_pending_existing/isaac-last-day-august-2026.jpg",
       "date": "August 2026",
