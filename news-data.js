@@ -7,6 +7,7 @@
      desc  — one-line description (optional)
      href  — link target (optional; omit or use "#" for a non-clickable item) */
 window.MULAB_NEWS = [
+  {date:'2026', tag:'Publication', head:'New paper published in Vita!', desc:'Lineage plasticity as a cellular time machine: reverse developmental logic in cancer evolution', href:'https://www.vita-journal.com/vita/EN/10.15302/vita.2026.08.0067'},
   {date:'2026', tag:'Award', head:'Melanie received the NCI F31 Fellowship! Congratulations!'},
   {date:'2026', tag:'Publication', head:'New paper published in Cancer Letters!', href:'https://www.sciencedirect.com/science/article/pii/S0304383526002284'},
   {date:'2026', tag:'Award', head:'Yaru received NCI K99/R00 award on the first submission!'},

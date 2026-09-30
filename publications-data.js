@@ -1,7 +1,16 @@
 /* Mu Lab publications — full list (single source of truth for publications.html).
-   Auto-generated from the Yale Mu Lab publication feed. Newest first.
+   Based on the Yale Mu Lab publication feed, with publisher-verified updates. Newest first.
    Fields: year, title, authors, journal, info (year, vol: pages), type, url */
 window.MULAB_PUBS = [
+ {
+  "year": "2026",
+  "title": "Lineage plasticity as a cellular time machine: reverse developmental logic in cancer evolution",
+  "authors": "Li L, Fu Z, Mu P",
+  "journal": "Vita",
+  "info": "2026, published online September 30",
+  "type": "Review",
+  "url": "https://www.vita-journal.com/vita/EN/10.15302/vita.2026.08.0067"
+ },
  {
   "year": "2026",
   "title": "Mirror worlds: The shared regulatory architecture of cell fate in development and cancer",
