@@ -1,6 +1,36 @@
 window.MULAB_GALLERY = {
   "timeline": [
     {
+      "id": "local_event_2026_016",
+      "src": "Gallery/date_pending_existing/anusha-with-mentors-2026.png",
+      "date": "October 2026",
+      "sortDate": "2026-10-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Anusha & Her Mentors",
+      "caption": "Anusha with her wonderful mentors, Yang and Longjun!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "local_event_2026_017",
+      "src": "Gallery/date_pending_existing/anusha-last-rotation-day-2026.png",
+      "date": "October 2026",
+      "sortDate": "2026-10-01",
+      "year": "2026",
+      "precision": "month",
+      "title": "Anusha’s Last Day",
+      "caption": "The last day of Anusha’s rotation in the Mu Lab!",
+      "source": "Mu Lab",
+      "descriptionSource": "Local",
+      "sourceUrl": "",
+      "width": 2610,
+      "height": 3480
+    },
+    {
       "id": "local_event_2026_015",
       "src": "Gallery/date_pending_existing/zixu-birthday.jpg",
       "date": "September 2026",
